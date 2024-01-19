@@ -40,12 +40,14 @@ body{
 .container{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
     margin-top: 25px;
 }
 
 .heading-holder{
-    padding: 20px 100px;
+    padding: 20px 50px;
     text-align: center;
 }
 #first-h1{
@@ -74,7 +76,7 @@ body{
 .card{
     border-radius: 7px;
     padding: 35px;
-    width: 350px;
+    max-width: 350px;
     height: 250px;
     background-color: var(--Very-Light-Gray);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -111,20 +113,18 @@ body{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media(max-width: 768px){
+@media(max-width: 730px){
     .container{
-        width: 350px;
-    }
-    .heading-holder{
-        padding: 0;
+        max-width: 650px;
+        align-items: center;
     }
     #first-h1{
-        font-size: 25px;
+        font-size: 22px;
         font-weight: 300;
         color: var(--Very-Dark-Blue);
     }
     #second-h1{
-        font-size: 25px;
+        font-size: 22px;
         font-weight: var(--font-wght-600);
         color: var(--Very-Dark-Blue);
     }
@@ -144,5 +144,10 @@ body{
     }
     .card:nth-child(4){
         order: 1;
+    }
+}
+@media(max-width: 1100px){
+    .card:nth-child(1), .card:nth-child(3) {
+        transform: none;
     }
 }
