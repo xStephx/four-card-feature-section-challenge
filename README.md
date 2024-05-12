@@ -9,7 +9,10 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 
 ![](./assets/images/screenshot.PNG)
 
-You can check it out live [here](https://xstephx.github.io/four-card-feature-section-challenge/).
+### Links
+
+- Solution URL: [here](https://www.frontendmentor.io/solutions/solution-four-card-feature-section-7xUg1GurW6)
+- Live Site URL: [here](https://xstephx.github.io/four-card-feature-section-challenge/)
 
 ## My process
 
